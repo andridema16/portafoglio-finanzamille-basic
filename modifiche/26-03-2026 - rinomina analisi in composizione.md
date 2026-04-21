@@ -1,0 +1,9 @@
+- **Ora**: 01:45
+- **File modificati**:
+  - `src/app/(protected)/analisi/` → rinominata in `src/app/(protected)/composizione/`
+  - `src/app/(protected)/composizione/page.tsx` — funzione rinominata da `AnalisiPage` a `ComposizionePage`, titolo da "Analisi Portafoglio" a "Composizione Portafoglio"
+  - `src/components/Sidebar.tsx` — link nav da "Analisi" `/analisi` a "Composizione" `/composizione`
+  - `src/__tests__/analisi-pagamenti-transazioni-sidebar-layout.test.ts` — aggiornati tutti i riferimenti
+- **Cosa è stato modificato**: La sezione "Analisi" è stata rinominata in "Composizione" (URL, titolo pagina, voce di menu nella sidebar). Il contenuto resta lo stesso: i 4 grafici di esposizione (per Categoria, Asset Class, Geografica, Settore).
+- **Motivo**: Richiesta utente di sostituire "Analisi" con "Composizione del portafoglio"
+- **Impatto**: Sidebar — voce di menu cambiata. Pagina composizione — nuovo URL `/composizione`. Vecchio URL `/analisi` non funziona piu'.

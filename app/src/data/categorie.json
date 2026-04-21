@@ -1,0 +1,57 @@
+[
+  {
+    "id": "obbligazionario-metalli-preziosi-btc-small-cap",
+    "nome": "Obbligazionario/Metalli Preziosi/BTC/Small Cap",
+    "slug": "obbligazionario-metalli-preziosi-btc-small-cap",
+    "pesoPercentuale": 32.08,
+    "costo": 9906,
+    "valoreAttuale": 9803,
+    "profittoOPerdita": -95,
+    "plPercentuale": -0.96,
+    "dividendi": 8
+  },
+  {
+    "id": "commodities",
+    "nome": "Commodities",
+    "slug": "commodities",
+    "pesoPercentuale": 12.20,
+    "costo": 2844,
+    "valoreAttuale": 3728,
+    "profittoOPerdita": 892.25,
+    "plPercentuale": 31.37,
+    "dividendi": 8.09
+  },
+  {
+    "id": "growth",
+    "nome": "Growth",
+    "slug": "growth",
+    "pesoPercentuale": 9.28,
+    "costo": 3388,
+    "valoreAttuale": 2837,
+    "profittoOPerdita": -550.31,
+    "plPercentuale": -16.24,
+    "dividendi": 0.63
+  },
+  {
+    "id": "international-equity",
+    "nome": "International Equity",
+    "slug": "international-equity",
+    "pesoPercentuale": 19.26,
+    "costo": 5518,
+    "valoreAttuale": 5884,
+    "profittoOPerdita": 383.27,
+    "plPercentuale": 6.95,
+    "dividendi": 17.55
+  },
+  {
+    "id": "dividend",
+    "nome": "Dividend",
+    "slug": "dividend",
+    "pesoPercentuale": 26.88,
+    "costo": 8136,
+    "valoreAttuale": 8213,
+    "profittoOPerdita": 134.69,
+    "plPercentuale": 1.66,
+    "dividendi": 57.75
+  }
+]

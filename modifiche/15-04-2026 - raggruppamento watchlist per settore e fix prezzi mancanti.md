@@ -1,0 +1,16 @@
+- **Ora**: 16:15
+- **File modificati**:
+  - DB: `ALTER TABLE watchlist ADD COLUMN ticker_yahoo TEXT` + UPDATE per 7 ticker
+  - `app/src/types/portafoglio.ts` — aggiunto `tickerYahoo: string | null` a WatchlistItem
+  - `app/src/lib/db.ts` — lettura/scrittura `ticker_yahoo` in rowToWatchlistItem, createWatchlistItem, updateWatchlistItem
+  - `app/src/app/(protected)/watchlist/page.tsx` — mappatura ticker display → ticker Yahoo per fetch prezzi
+  - `app/src/components/WatchlistGrid.tsx` — raggruppamento per settore con header verde scuro
+  - `app/src/components/admin/FormWatchlistItem.tsx` — campo "Ticker Yahoo Finance" nel form admin
+  - `app/src/app/api/admin/watchlist/route.ts` — accetta tickerYahoo nel POST
+- **Cosa è stato modificato**:
+  - Watchlist ora raggruppata per settore con header verde scuro (stile pagina Composizione)
+  - Aggiunta colonna `ticker_yahoo` per gestire ticker con simboli Yahoo diversi (es. BTC→BTC-USD, OIL→CL=F, SPM→SPM.MI)
+  - Fix prezzi mancanti per: BTC, OIL, COPPER, SPM, LDO, HAFNI, OET
+  - Form admin aggiornato con campo opzionale per ticker Yahoo
+- **Motivo**: richiesta utente di raggruppare per settore e risolvere prezzi mancanti per materie prime e azioni non-US
+- **Impatto**: pagina watchlist (layout raggruppato), drawer dettaglio, admin watchlist (form)

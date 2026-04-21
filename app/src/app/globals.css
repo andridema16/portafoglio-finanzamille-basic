@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-verde-primario: #4CAF50;
+  --color-verde-scuro: #2d4a3e;
+  --color-verde-guadagno: #38a169;
+  --color-rosso-perdita: #e53e3e;
+  --color-nero: #1a1a1a;
+  --color-grigio-sfondo: #f0f0f0;
+  --color-bianco: #ffffff;
+}
+
+@theme inline {
+  --color-verde-primario: var(--color-verde-primario);
+  --color-verde-scuro: var(--color-verde-scuro);
+  --color-verde-guadagno: var(--color-verde-guadagno);
+  --color-rosso-perdita: var(--color-rosso-perdita);
+  --color-nero: var(--color-nero);
+  --color-grigio-sfondo: var(--color-grigio-sfondo);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-grigio-sfondo);
+  color: var(--color-nero);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}

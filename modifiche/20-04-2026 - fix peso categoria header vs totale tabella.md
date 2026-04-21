@@ -1,0 +1,5 @@
+- **Ora**: 20/04/2026
+- **File modificati**: `app/src/lib/calcoli.ts`
+- **Cosa è stato modificato**: Aggiunto ricalcolo di `pesoPercentuale` della categoria nella funzione `ricalcolaCategoriaConTitoli`, basandolo su `totalPortafoglio` live quando disponibile.
+- **Motivo**: L'header della pagina categoria mostrava il peso dal DB (statico, es. 32.08%), mentre il totale in tabella sommava i pesi dei singoli titoli ricalcolati con prezzi live (es. 32.41%), causando un'incongruenza visiva.
+- **Impatto**: Tutte le pagine di dettaglio categoria (`/categoria/[slug]`). Ora header e totale tabella mostrano lo stesso peso coerente.

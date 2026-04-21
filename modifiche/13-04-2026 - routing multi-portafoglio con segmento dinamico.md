@@ -1,0 +1,21 @@
+# Routing multi-portafoglio con segmento dinamico
+
+- **Ora**: 19:30
+- **File modificati**:
+  - `src/app/(protected)/layout.tsx`
+  - `src/app/(protected)/[portfolio]/layout.tsx` (nuovo)
+  - `src/app/(protected)/admin/layout.tsx` (nuovo)
+  - `src/components/Sidebar.tsx`
+  - `src/proxy.ts`
+  - `src/app/scegli-portafoglio/page.tsx`
+  - `src/app/(protected)/admin/page.tsx`
+- **Cosa è stato modificato**:
+  - Il layout protetto principale è stato semplificato a un semplice wrapper che passa i children
+  - Creato nuovo layout `[portfolio]` che valida il parametro dinamico con `isValidPortfolioId()`, legge il ruolo da headers e renderizza la Sidebar con `portfolioId`
+  - Creato nuovo layout admin che renderizza la Sidebar con `portfolioId="intermedio"` come default
+  - Sidebar aggiornata: accetta nuovo prop `portfolioId`, usa `getNavItems()` per la navigazione dinamica e `getPortfolioMeta()` per il nome nel header
+  - Proxy aggiornato: redirect da `/dashboard` a `/scegli-portafoglio` (dopo autenticazione), redirect admin non autorizzati a `/scegli-portafoglio` invece di `/dashboard`
+  - Pagina selezione portafoglio: entrambe le card (Intermedio e Basic) ora sono attive con link a `/{portfolio}/dashboard`
+  - Admin page: link "Vai alla Dashboard" aggiornato a `/intermedio/dashboard`
+- **Motivo**: Implementare il sistema multi-portafoglio con routing dinamico tramite segmento `[portfolio]` nell'URL
+- **Impatto**: Tutta la navigazione del sito, sidebar, layout protetto, pagina selezione portafoglio, pagina admin

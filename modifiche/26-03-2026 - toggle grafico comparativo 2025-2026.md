@@ -1,0 +1,10 @@
+- **Ora**: 01:00
+- **File modificati**:
+  - `src/components/charts/GraficoComparativo.tsx`
+  - `src/app/(protected)/dashboard/DashboardCharts.tsx`
+  - `src/app/(protected)/dashboard/page.tsx`
+  - `src/__tests__/dashboard-data-inizio-storico.test.ts`
+  - `src/__tests__/grafico-comparativo-toggle.test.ts`
+- **Cosa è stato modificato**: Il toggle del grafico comparativo è stato cambiato da "Da inizio anno" / "Storico completo" a "2026" / "2025". La prop `dataInizioAnno` è stata rimossa — il componente calcola tutto internamente. Vista 2025 filtra dati dal 31/12/2024 al 31/12/2025 con asse X in mesi abbreviati (Gen, Feb, ...). Vista 2026 filtra da 01/01/2026 senza limite superiore con asse X in formato GG/MM. I test sono stati aggiornati per riflettere le nuove funzioni (`filtraRange` al posto di `filtraDaData`, `formatDataMese` al posto di `formatDataMeseAnno`).
+- **Motivo**: Rendere il grafico navigabile per anno con filtri indipendenti, mostrando ciascun anno normalizzato dal suo primo punto.
+- **Impatto**: Dashboard — grafico comparativo Portafoglio vs S&P 500.

@@ -1,0 +1,17 @@
+- **Ora**: 25/03/2026
+- **File modificati**:
+  - `app/src/app/(protected)/analisi/page.tsx` (nuovo)
+  - `app/src/app/(protected)/pagamenti/page.tsx` (nuovo)
+  - `app/src/app/(protected)/transazioni/page.tsx` (modificato)
+  - `app/src/components/Sidebar.tsx` (modificato)
+  - `app/src/app/(protected)/layout.tsx` (modificato)
+  - `app/src/app/(protected)/categoria/[slug]/page.tsx` (modificato)
+- **Cosa è stato modificato**:
+  - Creata pagina Analisi con 4 grafici di esposizione (Categoria, Asset Class, Geografica, Settore) in griglia 2x2
+  - Creata pagina Pagamenti con tabella dividendi, TickerLogo, e totale in fondo
+  - Ristrutturata pagina Transazioni: rimossa sezione dividendi, solo operazioni con TickerLogo e badge colorati
+  - Aggiornata Sidebar: nuovi link Dashboard/Analisi/Transazioni/Pagamenti, rimossa sezione Categorie espandibile
+  - Aggiornato layout protetto: rimossa prop categorie dal Sidebar
+  - Aggiunto TickerLogo nella tabella titoli della pagina Categoria (Logo + Ticker + Nome in colonna unica)
+- **Motivo**: Riorganizzazione della navigazione per separare analisi, transazioni e pagamenti in pagine dedicate
+- **Impatto**: Sidebar, tutte le pagine protette (dashboard, analisi, transazioni, pagamenti, categoria)

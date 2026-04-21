@@ -1,0 +1,356 @@
+{
+  "dividendi": [
+    {
+      "data": "2026-03-17",
+      "tipo": "dividendo",
+      "descrizione": "CHEESECAKE FACTORY INC CASH DIV ON 2.50000 SHS REC 03/04/26 PAY 03/17/26",
+      "ticker": "CAKE",
+      "importo": 0.45
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "dividendo",
+      "descrizione": "ALPHABET INC CLASS A COMMON STOCK CASH DIV ON 3 SHS REC 03/09/26 PAY 03/16/26",
+      "ticker": "GOOGL",
+      "importo": 0.63
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "dividendo",
+      "descrizione": "NOVARTIS AG AMERICAN DEPOSITARY SHARES CASH DIV ON 3 SHS REC 03/11/26 PAY 03/16/26 FOREIGN TAX WITHHELD",
+      "ticker": "NVS",
+      "importo": 9.48
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "dividendo",
+      "descrizione": "NEXTERA ENERGY INC CASH DIV ON 4.20000 SHS REC 02/27/26 PAY 03/16/26",
+      "ticker": "NEE",
+      "importo": 1.56
+    },
+    {
+      "data": "2026-03-09",
+      "tipo": "dividendo",
+      "descrizione": "COPA HOLDINGS S A CL A CASH DIV ON 2 SHS REC 02/27/26 PAY 03/13/26",
+      "ticker": "CPA",
+      "importo": 3.42
+    },
+    {
+      "data": "2026-03-09",
+      "tipo": "dividendo",
+      "descrizione": "PRUDENTIAL FINANCIAL INC CASH DIV ON 3.50000 SHS REC 02/17/26 PAY 03/12/26",
+      "ticker": "PRU",
+      "importo": 2.80
+    },
+    {
+      "data": "2026-03-09",
+      "tipo": "dividendo",
+      "descrizione": "ATMOS ENERGY CORP CASH DIV ON 2 SHS REC 02/23/26 PAY 03/09/26",
+      "ticker": "ATO",
+      "importo": 1.25
+    },
+    {
+      "data": "2026-03-06",
+      "tipo": "dividendo",
+      "descrizione": "ITAU UNIBANCO BANCO HOLDINGS A SPONSORED ADR REPSTG 500 PFD CASH DIV ON 36 SHS REC 02/03/26 PAY 03/09/26 FOREIGN TAX WITHHELD",
+      "ticker": "ITUB",
+      "importo": 2.51
+    },
+    {
+      "data": "2026-03-06",
+      "tipo": "dividendo",
+      "descrizione": "AMGEN INC CASH DIV ON 1 SHS REC 02/13/26 PAY 03/06/26",
+      "ticker": "AMGN",
+      "importo": 1.64
+    },
+    {
+      "data": "2026-03-05",
+      "tipo": "dividendo",
+      "descrizione": "ISHARES TRUST ISHARES 1 3 YEAR TREASURY BOND ETF CASH DIV ON 79 SHS REC 03/02/26 PAY 03/05/26",
+      "ticker": "SHY",
+      "importo": 3.79
+    },
+    {
+      "data": "2026-03-05",
+      "tipo": "dividendo",
+      "descrizione": "SPDR SERIES TRUST STATE STREET SPDR BLOOMBERG 1-3 MONTH T-BILL ETF CASH DIV ON 60 SHS REC 03/02/26 PAY 03/05/26",
+      "ticker": "BIL",
+      "importo": 4.38
+    },
+    {
+      "data": "2026-03-02",
+      "tipo": "dividendo",
+      "descrizione": "CENCORA INC COMMON STOCK CASH DIV ON 1 SHS REC 02/13/26 PAY 03/02/26",
+      "ticker": "COR",
+      "importo": 0.60
+    },
+    {
+      "data": "2026-03-02",
+      "tipo": "dividendo",
+      "descrizione": "AFLAC INC CASH DIV ON 2.20000 SHS REC 02/18/26 PAY 03/02/26",
+      "ticker": "AFL",
+      "importo": 0.91
+    },
+    {
+      "data": "2026-03-02",
+      "tipo": "dividendo",
+      "descrizione": "ENBRIDGE INC CASH DIV ON 5.50000 SHS REC 02/17/26 PAY 03/01/26 FOREIGN TAX WITHHELD",
+      "ticker": "ENB",
+      "importo": 2.48
+    },
+    {
+      "data": "2026-03-02",
+      "tipo": "dividendo",
+      "descrizione": "VISA INC CL A COMMON STOCK CASH DIV ON 1.60000 SHS REC 02/10/26 PAY 03/02/26",
+      "ticker": "V",
+      "importo": 0.67
+    },
+    {
+      "data": "2026-02-17",
+      "tipo": "dividendo",
+      "descrizione": "CARNIVAL CORP COMMON PAIRED STOCK CASH DIV ON 15 SHS REC 02/13/26 PAY 02/27/26",
+      "ticker": "CCL",
+      "importo": 1.35
+    },
+    {
+      "data": "2026-02-13",
+      "tipo": "dividendo",
+      "descrizione": "ACCENTURE PLC IRELAND SHS CL A CASH DIV ON 2 SHS REC 01/13/26 PAY 02/13/26 FOREIGN TAX WITHHELD",
+      "ticker": "ACN",
+      "importo": 1.63
+    },
+    {
+      "data": "2026-02-10",
+      "tipo": "dividendo",
+      "descrizione": "AMERICAN EXPRESS COMPANY CASH DIV ON 1 SHS REC 01/02/26 PAY 02/10/26",
+      "ticker": "AXP",
+      "importo": 0.82
+    },
+    {
+      "data": "2026-02-09",
+      "tipo": "dividendo",
+      "descrizione": "BRITISH AMERICAN TOBACCO PLC SPONSORED ADR CASH DIV ON 9 SHS REC 12/30/25 PAY 02/09/26",
+      "ticker": "BTI",
+      "importo": 4.53
+    },
+    {
+      "data": "2026-02-09",
+      "tipo": "dividendo",
+      "descrizione": "AIR PRODUCTS & CHEMICALS INC CASH DIV ON 1.50000 SHS REC 01/02/26 PAY 02/09/26",
+      "ticker": "APD",
+      "importo": 1.79
+    },
+    {
+      "data": "2026-02-05",
+      "tipo": "dividendo",
+      "descrizione": "ISHARES TRUST ISHARES 1 3 YEAR TREASURY BOND ETF CASH DIV ON 79 SHS REC 02/02/26 PAY 02/05/26",
+      "ticker": "SHY",
+      "importo": 4.25
+    },
+    {
+      "data": "2026-02-05",
+      "tipo": "dividendo",
+      "descrizione": "SPDR SERIES TRUST STATE STREET SPDR BLOOMBERG 1-3 MONTH T-BILL ETF CASH DIV ON 60 SHS REC 02/02/26 PAY 02/05/26",
+      "ticker": "BIL",
+      "importo": 4.93
+    },
+    {
+      "data": "2026-02-02",
+      "tipo": "dividendo",
+      "descrizione": "CVS HEALTH CORPORATION CASH DIV ON 5 SHS REC 01/22/26 PAY 02/02/26",
+      "ticker": "CVS",
+      "importo": 3.33
+    },
+    {
+      "data": "2026-01-21",
+      "tipo": "dividendo",
+      "descrizione": "TOTALENERGIES SE ORDINARY SHARES CASH DIV ON 20 SHS REC 12/31/25 PAY 01/23/26 EM CONV. RATE: 01.17429 FOREIGN TAX WITHHELD",
+      "ticker": "TTE",
+      "importo": 3.84
+    },
+    {
+      "data": "2026-01-21",
+      "tipo": "dividendo",
+      "descrizione": "CISCO SYSTEMS INC CASH DIV ON 5 SHS REC 01/02/26 PAY 01/21/26",
+      "ticker": "CSCO",
+      "importo": 1.37
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "dividendo",
+      "descrizione": "BANK OZK COMMON STOCK CASH DIV ON 11 SHS REC 01/13/26 PAY 01/20/26",
+      "ticker": "OZK",
+      "importo": 3.22
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "dividendo",
+      "descrizione": "NUTRIEN LTD COM CASH DIV ON 6 SHS REC 12/31/25 PAY 01/16/26 FOREIGN TAX WITHHELD",
+      "ticker": "NTR",
+      "importo": 1.91
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "dividendo",
+      "descrizione": "US BANCORP DEL COM CASH DIV ON 10 SHS REC 12/31/25 PAY 01/15/26",
+      "ticker": "USB",
+      "importo": 3.12
+    },
+    {
+      "data": "2026-01-09",
+      "tipo": "dividendo",
+      "descrizione": "ITAU UNIBANCO BANCO HOLDINGS A SPONSORED ADR REPSTG 500 PFD CASH DIV ON 35 SHS REC 12/02/25 PAY 01/09/26 FOREIGN TAX WITHHELD",
+      "ticker": "ITUB",
+      "importo": 0.30
+    },
+    {
+      "data": "2026-01-07",
+      "tipo": "dividendo",
+      "descrizione": "ALTRIA GROUP INC CASH DIV ON 6 SHS REC 12/26/25 PAY 01/09/26",
+      "ticker": "MO",
+      "importo": 4.24
+    },
+    {
+      "data": "2026-01-07",
+      "tipo": "dividendo",
+      "descrizione": "GLOBAL X FDS GLOBAL X FTSE SOUTHEAST ASIA ETF SUBST PAY ON 48 SHS REC 12/30/25 PAY 01/07/26",
+      "ticker": "ASEA",
+      "importo": 11.11
+    },
+    {
+      "data": "2026-01-06",
+      "tipo": "dividendo",
+      "descrizione": "CANADIAN NATURAL RESOURCES LTD US LISTED CASH DIV ON 9 SHS REC 12/12/25 PAY 01/06/26",
+      "ticker": "CNQ",
+      "importo": 2.34
+    },
+    {
+      "data": "2026-01-06",
+      "tipo": "dividendo",
+      "descrizione": "FEDEX CORP CASH DIV ON 1.50000 SHS REC 12/15/25 PAY 01/06/26",
+      "ticker": "FDX",
+      "importo": 1.45
+    },
+    {
+      "data": "2026-01-05",
+      "tipo": "dividendo",
+      "descrizione": "ISHARES LATIN AMERICA 40 ETF CASH DIV ON 52 SHS REC 12/30/25 PAY 01/05/26",
+      "ticker": "ILF",
+      "importo": 6.44
+    },
+    {
+      "data": "2026-01-06",
+      "tipo": "dividendo",
+      "descrizione": "PEPSICO INC COMMON STOCK CASH DIV ON 3.50000 SHS REC 12/05/25 PAY 01/06/26",
+      "ticker": "PEP",
+      "importo": 3.13
+    }
+  ],
+  "operazioni": [
+    {
+      "data": "2026-01-15",
+      "tipo": "vendita",
+      "ticker": "VAL",
+      "nome": "Valaris Ltd",
+      "azioniVendute": 1.5,
+      "prezzoAcquisto": 52,
+      "prezzoVendita": 84,
+      "utileRealizzato": 48,
+      "percentuale": 61.07,
+      "nota": "Dopo una crescita improvvisa del 36% in un giorno, ho deciso di ridurre la mia posizione del 30%"
+    },
+    {
+      "data": "2026-01-20",
+      "tipo": "acquisto",
+      "ticker": "CPA",
+      "nome": "Copa Holdings, S.A.",
+      "azioniComprate": 2,
+      "prezzoAcquisto": 140,
+      "nota": "Naturalmente questa posizione ha senso solo in un portafoglio ben diversificato, perché il settore aereo è molto sensibile ai cicli economici"
+    },
+    {
+      "data": "2026-02-02",
+      "tipo": "vendita",
+      "ticker": "FDX",
+      "nome": "FedEx Corp",
+      "azioniVendute": 0.3,
+      "prezzoAcquisto": 293,
+      "prezzoVendita": 333,
+      "utileRealizzato": 12,
+      "percentuale": 13.60,
+      "nota": "Il titolo si trova ad un massimo storico, su del 68% rispetto al minimo registrato nel nostro portafoglio lo scorso anno. Per questo motivo ho deciso di ridurre la posizione del 30%"
+    },
+    {
+      "data": "2026-02-04",
+      "tipo": "vendita",
+      "ticker": "PEP",
+      "nome": "PepsiCo Inc",
+      "azioniVendute": 0.6,
+      "prezzoAcquisto": 148,
+      "prezzoVendita": 156,
+      "utileRealizzato": 5,
+      "percentuale": 5.41,
+      "nota": "Il titolo a livello tecnico sembra interessante, ma i numeri fondamentali non sono molto invitanti, le revenue stanno rallentando, debito in aumento (e costi del debito in aumento) preferisco ridurre leggermente la posizione. Non chiudo completamente, tengo ancora il 60%"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo": "vendita",
+      "ticker": "XOM",
+      "nome": "Exxon Mobil Corp",
+      "azioniVendute": 0.5,
+      "prezzoAcquisto": 123,
+      "prezzoVendita": 166,
+      "utileRealizzato": 22,
+      "percentuale": 35.34,
+      "nota": "Riduzione posizione per presa di profitto dopo buona performance"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo": "vendita",
+      "ticker": "TDW",
+      "nome": "Tidewater Inc",
+      "azioniVendute": 1,
+      "prezzoAcquisto": 52,
+      "prezzoVendita": 77,
+      "utileRealizzato": 25,
+      "percentuale": 47.42,
+      "nota": "Riduzione posizione per presa di profitto"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo": "vendita",
+      "ticker": "GUNR",
+      "nome": "FlexShs Morningstar Glbl Upsteam Ntrl Res Idx Fd",
+      "azioniVendute": 5,
+      "prezzoAcquisto": 47,
+      "prezzoVendita": 53,
+      "utileRealizzato": 34,
+      "percentuale": 14.43,
+      "nota": "Riduzione posizione ETF risorse naturali"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo": "vendita",
+      "ticker": "EOG",
+      "nome": "EOG Resources Inc",
+      "azioniVendute": 0.5,
+      "prezzoAcquisto": 115,
+      "prezzoVendita": 143,
+      "utileRealizzato": 14,
+      "percentuale": 24.35,
+      "nota": "Riduzione posizione per presa di profitto"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo": "vendita",
+      "ticker": "SU",
+      "nome": "Suncor Energy Inc",
+      "azioniVendute": 1.5,
+      "prezzoAcquisto": 46,
+      "prezzoVendita": 64,
+      "utileRealizzato": 28,
+      "percentuale": 40.38,
+      "nota": "Riduzione posizione per presa di profitto"
+    }
+  ]
+}

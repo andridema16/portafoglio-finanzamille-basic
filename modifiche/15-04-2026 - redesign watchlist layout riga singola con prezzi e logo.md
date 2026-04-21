@@ -1,0 +1,14 @@
+- **Ora**: 15:30
+- **File modificati**:
+  - `app/src/lib/yahoo.ts` — aggiunta funzione `getPrezziInizioAnno()` con cache 24h
+  - `app/src/app/(protected)/watchlist/page.tsx` — fetch prezzi server-side + calcolo YTD
+  - `app/src/components/WatchlistGrid.tsx` — redesign completo layout
+  - `app/src/components/WatchlistDrawer.tsx` — aggiunta prezzo attuale e YTD
+- **Cosa è stato modificato**:
+  - Layout watchlist cambiato da griglia 2 colonne a lista singola colonna
+  - Ogni card è ora una riga orizzontale con: logo azione (TickerLogo), ticker, nome, rating, tags settore/paese, prezzo attuale live, performance YTD % (verde/rosso), target price, link articolo, chevron
+  - Layout responsive: desktop orizzontale, mobile stacked
+  - Drawer arricchito con card prezzo attuale e YTD nella sezione analisi
+  - Timestamp "Prezzi aggiornati alle HH:MM" visibile sotto il contatore risultati
+- **Motivo**: richiesta utente di migliorare la visualizzazione della watchlist con dati live e layout più leggibile
+- **Impatto**: pagina watchlist (layout, dati live), drawer dettaglio watchlist

@@ -1,0 +1,6 @@
+- **Ora**: 18:55
+- **File modificati**:
+  - `app/src/lib/format.ts`
+- **Cosa è stato modificato**: La funzione `formatValuta` ora mostra sempre 2 cifre decimali (`minimumFractionDigits: 2, maximumFractionDigits: 2`) invece di arrotondare a intero (`0, 0`).
+- **Motivo**: I valori nella dashboard e nelle altre pagine venivano mostrati arrotondati (es. $30,750 invece di $30,750.00), perdendo informazione sui centesimi.
+- **Impatto**: Dashboard (card riepilogo, valore totale), pagina categorie (valori titoli), e tutte le pagine che usano `formatValuta`.

@@ -1,0 +1,13 @@
+- **Ora**: 25/03/2026
+- **File modificati**:
+  - `app/src/app/(protected)/dashboard/page.tsx` (modificato)
+- **Cosa è stato modificato**:
+  - Tabella "Composizione Portafoglio" ristrutturata: titoli raggruppati per categoria con riga header colorata (bg-verde-scuro, testo bianco) per ogni categoria
+  - Riga header categoria mostra: nome (link a /categoria/slug), peso % sul portafoglio, valore totale, P&L e P&L %
+  - Rimossa colonna "Categoria" (ora 7 colonne invece di 8)
+  - Peso % dei titoli è relativo alla categoria (pesoPercentuale)
+  - Aggiunto import Fragment da React per il raggruppamento
+  - Rimossa variabile catInfo (non più necessaria)
+  - Footer totale aggiornato con colSpan={3}
+- **Motivo**: Allineare la tabella al formato del PDF originale, dove i titoli sono raggruppati sotto la loro categoria
+- **Impatto**: Dashboard — sezione Composizione Portafoglio

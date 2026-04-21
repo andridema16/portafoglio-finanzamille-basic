@@ -1,0 +1,8 @@
+- **Ora**: 18:45
+- **File modificati**:
+  - `app/src/components/InfoTooltip.tsx` (nuovo)
+  - `app/src/app/(protected)/[portfolio]/dashboard/page.tsx`
+  - `app/src/__tests__/InfoTooltip.test.ts` (nuovo, generato da QA)
+- **Cosa è stato modificato**: Aggiunta icona info (i) in alto a destra su ogni card del riepilogo portafoglio (Capitale Investito, Dividendi, Utile Realizzato, Guadagno Totale) e accanto al titolo "Valore Totale". Al passaggio del mouse o focus tastiera, il tooltip mostra la formula di calcolo del dato. Il componente InfoTooltip supporta accessibilità (aria-describedby, Escape per chiudere, focus/hover indipendenti), riposizionamento automatico (sopra/sotto in base allo spazio disponibile), e usa requestAnimationFrame per evitare layout thrash.
+- **Motivo**: L'utente ha notato che il "Guadagno Totale" ($1,236) differisce dal P&L sotto "Valore Totale" ($1,050) e voleva capire come si calcolano. I tooltip spiegano la formula di ogni dato direttamente nell'interfaccia.
+- **Impatto**: Dashboard — sezione riepilogo portafoglio (tutte le card metriche + barra valore totale). Visibile su tutti i portafogli.

@@ -1,0 +1,11 @@
+- **Ora**: 26-03-2026
+- **File modificati**:
+  - `src/app/(protected)/ribilanciamenti/page.tsx` (NUOVO)
+  - `src/components/Sidebar.tsx`
+- **Cosa è stato modificato**:
+  - Creata nuova pagina pubblica `/ribilanciamenti` che mostra lo storico di tutti i depositi, prelievi e ribilanciamenti del portafoglio
+  - Layout: flussi raggruppati per anno, card orizzontali in stile timeline con data (mese+anno), badge colorato per tipo, importo e capitale dopo l'operazione
+  - Riepilogo in fondo con totale depositato, totale prelevato e capitale attuale
+  - Aggiunto link "Ribilanciamenti" nella sidebar pubblica (dopo "Pagamenti")
+- **Motivo**: Dare ai clienti visibilità sullo storico dei movimenti di capitale del portafoglio
+- **Impatto**: Nuova pagina ribilanciamenti, sidebar (navigazione pubblica)

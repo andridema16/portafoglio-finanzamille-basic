@@ -1,0 +1,12 @@
+Data,Tipo,Importo ($),Capitale Investito Dopo ($),Note
+2025-01-01,Inizio,30600,30600,Capitale iniziale portafoglio intermedio 2025
+2025-04-30,Deposito,500,31100,Aggiunta capitale fine aprile
+2025-07-31,Deposito,500,31600,Aggiunta capitale fine luglio
+2025-11-30,Deposito,9000,40600,Aggiunta capitale fine novembre
+
+--- Performance 2025 ---
+Metrica,Valore,Note
+Profitto parte iniziale ($30.600),~$10.000,Rendimento ~31.7% da inizio anno (TWR considerando le aggiunte)
+Profitto deposito novembre ($9.000),$600,+6.7% in 1 mese (~80% annualizzato base lineare)
+Profitto totale stimato,~$10.600,Somma profitti su tutte le tranche
+Capitale totale investito,$40.600,$30.600 + $500 + $500 + $9.000
